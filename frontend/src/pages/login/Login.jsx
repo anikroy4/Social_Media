@@ -2,13 +2,13 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div className="relative max-w-[1920 px] mx-auto overflow-hidden bg-[#f3f5f9] text-slate-900 font-['Manrope']">
-      <div className="pointer-events-none absolute -top-32 -left-24 h-80 w-80 rounded-full bg-[#1877f2]/20 blur-3xl" />
+    <div className="relative max-w-[1920px] mx-auto overflow-hidden bg-[#f3f5f9] text-slate-900 font-['Manrope']">
+      <div className="pointer-events-none absolute -top-32 -left-24 h-80 w-80 rounded-full bg-[#1877f2]/20 blur-3xl"  />
       <div className="pointer-events-none absolute bottom-0 right-0 h-96 w-96 rounded-full bg-emerald-300/30 blur-3xl" />
 
       <div className="relative z-10 grid min-h-screen place-items-center px-6 py-12">
-        <div className="w-full max-w-[1860 px] grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center">
-          <section className="space-y-6 text-center lg:text-left">
+        <div className="w-full max-w-[1880px] grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center">
+          <section className="w-full space-y-6 text-center lg:text-left">
             <span className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 px-4 py-1 text-sm font-semibold text-slate-600 shadow-sm">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
               Trusted by 2M creators
@@ -36,7 +36,7 @@ const Login = () => {
             </div>
           </section>
 
-          <section className="rounded-2xl border border-white/70 bg-white/80 p-8 shadow-[0_24px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl">
+          <section className="w-full rounded-2xl border border-white/70 bg-white/80 p-8 shadow-[0_24px_60px_rgba(15,23,42,0.18)] backdrop-blur-xl">
             <div className="mb-6">
               <h2 className="text-2xl font-semibold text-slate-900">
                 Welcome back
