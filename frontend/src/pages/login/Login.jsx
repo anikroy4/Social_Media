@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
-    <div className="relative max-w-[1920px] mx-auto overflow-hidden bg-[#f3f5f9] text-slate-900 font-['Manrope']">
+    <div className="relative w-full mx-auto overflow-hidden bg-[#f3f5f9] text-slate-900 font-['Manrope']">
       <div className="pointer-events-none absolute -top-32 -left-24 h-80 w-80 rounded-full bg-[#1877f2]/20 blur-3xl"  />
       <div className="pointer-events-none absolute bottom-0 right-0 h-96 w-96 rounded-full bg-emerald-300/30 blur-3xl" />
 
@@ -82,15 +83,17 @@ const Login = () => {
                 Or
                 <span className="h-px flex-1 bg-slate-200" />
               </div>
-              <button
-                className="h-12 rounded-xl border border-slate-200 text-slate-700 text-base font-semibold transition hover:border-slate-300 hover:bg-slate-50"
-                type="button"
+              <Link
+                to="/registration"
+                className="grid h-12 place-items-center rounded-xl border border-slate-200 text-slate-700 text-base font-semibold transition hover:border-slate-300 hover:bg-slate-50"
               >
                 Create New Account
-              </button>
+              </Link>
             </form>
             <p className="mt-6 text-center text-sm text-slate-500">
-              <strong className="text-slate-900">Create a Page</strong> for a
+              <Link to="/registration" className="font-semibold text-[#1877f2]">
+                Create a new account
+              </Link>{' '}for a
               celebrity, brand or business.
             </p>
           </section>
